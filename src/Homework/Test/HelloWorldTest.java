@@ -1,10 +1,10 @@
-package Homework1.Test;
+package Homework.Test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import Homework1.Unit.HelloWorldUnit;
-import Homework1.Object.HelloWorldObject;
-import Homework1.Exception.HelloWorldException;
+import Homework.Unit.HelloWorldUnit;
+import Homework.Object.HelloWorldObject;
+import Homework.Exception.HelloWorldException;
 
 /**
  * Задание 1. Написать программу ”Hello, World!”. В ходе выполнения программы она должна

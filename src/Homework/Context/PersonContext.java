@@ -1,6 +1,6 @@
-package Homework1.Context;
+package Homework.Context;
 
-import Homework1.Object.Person;
+import Homework.Object.Person;
 
 public abstract class PersonContext implements Context<Person> {
     @Override

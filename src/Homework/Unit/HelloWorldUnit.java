@@ -1,5 +1,5 @@
-package Homework1.Unit;
-import Homework1.Object.HelloWorldObject;
+package Homework.Unit;
+import Homework.Object.HelloWorldObject;
 
 /**
  * Объект который совершает действия над объектом HelloWorldObject

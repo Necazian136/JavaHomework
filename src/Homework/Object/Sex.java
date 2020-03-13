@@ -1,6 +1,6 @@
-package Homework1.Object;
+package Homework.Object;
 
-import Homework1.Exception.NotValidSexException;
+import Homework.Exception.NotValidSexException;
 
 public class Sex {
     public static final String MAN = "MAN";

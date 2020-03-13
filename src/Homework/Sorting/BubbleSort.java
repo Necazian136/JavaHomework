@@ -1,10 +1,10 @@
-package Homework1.Sorting;
+package Homework.Sorting;
 
-import Homework1.Context.Context;
+import Homework.Context.Context;
 
 import java.util.List;
 
-public class BubbleAbstractSort<T> extends AbstractSort<T> {
+public class BubbleSort<T> extends AbstractSort<T> {
     @Override
     public List<T> sort(List<T> list, Context<T> context) {
         for (int i = 0; i < list.toArray().length; i++) {

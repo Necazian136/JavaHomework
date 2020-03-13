@@ -1,7 +1,7 @@
-package Homework1.Service;
+package Homework.Service;
 
 
-import Homework1.Exception.NegativeNumberException;
+import Homework.Exception.NegativeNumberException;
 
 import java.util.ArrayList;
 import java.util.List;

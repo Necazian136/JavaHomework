@@ -1,6 +1,6 @@
-package Homework1.Sorting;
+package Homework.Sorting;
 
-import Homework1.Context.Context;
+import Homework.Context.Context;
 
 import java.util.List;
 

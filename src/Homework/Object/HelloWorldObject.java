@@ -1,6 +1,6 @@
-package Homework1.Object;
+package Homework.Object;
 
-import Homework1.Exception.HelloWorldException;
+import Homework.Exception.HelloWorldException;
 
 /**
  * Объект над которым совершаются действия

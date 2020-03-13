@@ -1,6 +1,6 @@
-package Homework1.Test;
+package Homework.Test;
 
-import Homework1.Service.SquareRootService;
+import Homework.Service.SquareRootService;
 import org.junit.Assert;
 import org.junit.Test;
 

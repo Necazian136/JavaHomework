@@ -1,4 +1,4 @@
-package Homework1.Object;
+package Homework.Object;
 
 public class Person {
     private String name;

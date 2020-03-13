@@ -1,4 +1,4 @@
-package Homework1.Exception;
+package Homework.Exception;
 
 public class HelloWorldException extends Exception {
     @Override

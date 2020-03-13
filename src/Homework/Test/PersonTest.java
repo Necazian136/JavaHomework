@@ -1,15 +1,15 @@
-package Homework1.Test;
+package Homework.Test;
 
-import Homework1.Context.AgeContext;
-import Homework1.Context.Context;
-import Homework1.Context.NameContext;
-import Homework1.Context.SexContext;
-import Homework1.Exception.NotValidSexException;
-import Homework1.Object.Person;
-import Homework1.Object.Sex;
-import Homework1.Sorting.BubbleAbstractSort;
-import Homework1.Sorting.GnomeAbstractSort;
-import Homework1.Sorting.AbstractSort;
+import Homework.Context.AgeContext;
+import Homework.Context.Context;
+import Homework.Context.NameContext;
+import Homework.Context.SexContext;
+import Homework.Exception.NotValidSexException;
+import Homework.Object.Person;
+import Homework.Object.Sex;
+import Homework.Sorting.BubbleSort;
+import Homework.Sorting.GnomeSort;
+import Homework.Sorting.AbstractSort;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -83,31 +83,31 @@ public class PersonTest {
 
     @Test
     public void bubbleSortSexContextTest() {
-        this.sortData(new BubbleAbstractSort<>(), new SexContext());
+        this.sortData(new BubbleSort<>(), new SexContext());
     }
 
     @Test
     public void bubbleSortAgeContextTest() {
-        this.sortData(new BubbleAbstractSort<>(), new AgeContext());
+        this.sortData(new BubbleSort<>(), new AgeContext());
     }
 
     @Test
     public void bubbleSortNameContextTest() {
-        this.sortData(new BubbleAbstractSort<>(), new NameContext());
+        this.sortData(new BubbleSort<>(), new NameContext());
     }
 
     @Test
     public void gnomeSortSexContextTest() {
-        this.sortData(new GnomeAbstractSort<>(), new SexContext());
+        this.sortData(new GnomeSort<>(), new SexContext());
     }
 
     @Test
     public void gnomeSortAgeContextTest() {
-        this.sortData(new GnomeAbstractSort<>(), new AgeContext());
+        this.sortData(new GnomeSort<>(), new AgeContext());
     }
 
     @Test
     public void gnomeSortNameContextTest() {
-        this.sortData(new GnomeAbstractSort<>(), new NameContext());
+        this.sortData(new GnomeSort<>(), new NameContext());
     }
 }
